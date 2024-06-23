@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+/* Note section styles */
+
+.note-section {
+  margin-top: 40px;
+}
+
+.note-header,
+.note-section-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.note-section-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.note-section-header h2 {
+  margin: 0;
+}
+
+.note-form {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.note-table {
+  margin-top: 20px;
+}
+
+.note-actions {
+  white-space: nowrap;
+}
+
+/* Form input styles */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+/* Table styles */
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table td {
+  border-top: 1px solid #dee2e6;
+}
+
+.table-responsive .table .btn-sm {
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .navbar {
+    padding: 5px 0;
+  }
+
+  .navbar-brand img {
+    margin-right: 5px;
+  }
+
+  .note-section-header h2 {
+    font-size: 2rem;
+  }
+
+  .table-responsive .table th,
+  .table-responsive .table td {
+    padding: 5px;
+  }
+
+  .table-responsive .table .btn-sm {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .table-responsive .table {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 800px;
+  }
+}

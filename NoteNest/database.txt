@@ -1,0 +1,7 @@
+CREATE TABLE `notes` (
+ `sno` int(12) NOT NULL AUTO_INCREMENT,
+ `title` varchar(50) NOT NULL,
+ `description` text NOT NULL,
+ `tstamp` datetime NOT NULL DEFAULT current_timestamp(),
+ PRIMARY KEY (`sno`)
+) ENGINE=InnoDB AUTO_INCREMENT=89 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
