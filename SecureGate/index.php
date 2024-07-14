@@ -10,7 +10,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 ?>
 
 <!-- HTML Starts Here -->
-
 <!doctype html>
 <html lang="en">
 

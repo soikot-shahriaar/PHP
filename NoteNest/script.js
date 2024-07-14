@@ -1,9 +1,7 @@
 // Initialize DataTables
-
 let table = $("#myTable").DataTable();
 
 // Edit Button Events
-
 edits = document.getElementsByClassName("edit");
 
 Array.from(edits).forEach((element) => {
@@ -25,7 +23,6 @@ Array.from(edits).forEach((element) => {
 });
 
 // Delete Button Events
-
 deletes = document.getElementsByClassName("delete");
 
 Array.from(deletes).forEach((element) => {

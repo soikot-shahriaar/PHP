@@ -5,14 +5,12 @@ $update = false;
 $delete = false;
 
 // Connect to the Database 
-
 $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "NoteNest";
 
 // Create Connection
-
 $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Sorry! We Failed to Connect: " . mysqli_connect_error());
@@ -26,7 +24,6 @@ if (isset($_GET['delete'])) {
 }
 
 // Insertion & Updation
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['snoEdit'])) {
 

@@ -23,9 +23,7 @@
 
 <body>
 
-
     <!-- Edit Modal -->
-
     <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
 
@@ -66,7 +64,6 @@
 
 
     <!-- Navbar -->
-
     <nav class="navbar navbar-dark bg-info">
         <a class="navbar-brand" href="#">
             <img src="logo.svg" width="50" height="32" class="d-inline-block align-top" alt="">
@@ -76,7 +73,6 @@
 
 
     <!-- Alerts for Insert, Delete & Update -->
-
     <?php
     if ($insert) {
         echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
@@ -109,7 +105,6 @@
 
 
     <!-- Form Section  -->
-
     <div class="container my-4">
 
         <div class="row justify-content-center  ">
@@ -136,7 +131,6 @@
 
 
     <!-- Notes Data Tables -->
-
     <div class="container my-4">
 
         <div class="table-responsive">
